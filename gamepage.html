@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Game</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="textt/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+
+<body background="Untitled.png">
+    <h1>Maths Game</h1>
+    <h4 id="player1"></h4> <span id="player1_score"></span>
+    <h4 id="player2"></h4> <span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color:white;">The Math Quiz Game</h2>
+            <div id="output">
+                <h3>6 X 12</h3>
+                <label>Answer</label> <span></span>
+                <input id="answer" class="form-control" type="text" placeholder="Enter your answer here">
+                <br>
+                <button id="answer_btn" class="btn btn-info" onclick="check()" type="submit">Check</button>
+                        </div>
+        </center>
+    </div>
+    <br><br>
+
+    
+    <span>
+        <center>
+            <div class="col col-lg-4, col col-sm-8, col col-xs-11 login-div-1">
+                <label>Number 1 : </label>
+                <input id="number_1" type="text" class="form-control" placeholder="Enter Your First Number">
+                <br>
+            </div>
+        
+            <div class="col col-lg-4, col col-sm-8, col col-xs-11 login-div-1">
+                <label>Number 2 : </label>
+                <input id="number_2" type="text" class="form-control" placeholder="Enter Your Second Number">
+                <br>
+                <br>
+                <button class="btn btn-danger" onclick="adduser()" type="submit" id="btn">Login</button>
+            </div>    
+        </center>
+    </span>
+</body>
+</html>

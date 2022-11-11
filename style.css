@@ -1,0 +1,29 @@
+.login_div1 
+{
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+
+.login_div2{
+    background: white;
+    padding: 20px;
+    float: none;
+    border-radius: 15px;
+}
+
+#player_1, #player_2
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px red;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
